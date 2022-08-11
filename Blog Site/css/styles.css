@@ -1,0 +1,140 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Kavivanar', cursive;
+    font-weight: normal;
+}
+h2 {
+    font-size: 2rem;
+    color: #A51F10;
+    margin: 0;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.leftheader {
+    flex-basis: 40%;
+    text-align: right;
+    padding-right: 0.5rem;
+}
+
+.rightheader {
+    padding-top: 4rem;
+    padding-left: 0.5rem;
+    flex-basis: 60%;
+}
+
+.rightheader h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: #DA0090;
+}
+
+.rightheader p {
+    margin-top: -0.5rem;
+}
+
+nav {
+    border-top: 1px solid purple;
+    border-bottom: 1px solid purple;
+    margin-bottom: 2rem;
+    
+}
+
+nav ul {
+    list-style-type: none;  
+    text-align:center;
+    border: 0px solid rgb(104, 104, 44); 
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    border: 0px solid purple;
+    display: inline-block;
+    margin: .5rem 1rem .5rem 1rem;
+}
+
+nav a {
+    border: 0px solid red;
+    display: block;
+}
+
+section {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #DA0090;
+}
+
+article {
+    margin-bottom: 2rem;
+}
+article img {
+    float: left;
+    border-radius: 1rem;
+    margin: 0 1rem 1rem 0;
+}
+
+article a {
+    color: #DA0090;
+}
+
+article a:hover {
+    font-weight: none;
+    font-size: 1rem;
+    text-decoration: underline;
+}
+
+article::after {
+    content: "";
+    display: table;
+    clear: both; 
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+nav a:hover {
+    font-weight: bold;
+    font-size: 1rem;
+}
+.posted {
+    font-size: 0.8rem;
+    color: #89A611;
+}
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 1rem 0 3rem 0;
+    border-top: 1px solid purple;
+}
+
+footer ul {
+    list-style-type: none;  
+    text-align:center; 
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+}
+
